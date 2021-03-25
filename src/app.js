@@ -31,6 +31,7 @@ app.post('/wyr/job', (req, res) => {
         wyr.endJob();
         is_live = false;
     }
+    // FIXME: Throws error
     // else if (data[0].type && !is_live) {
     //     console.log(`${new Date()} Starting wyr job`);
     //     wyr.startJob();
