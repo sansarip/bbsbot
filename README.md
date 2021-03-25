@@ -16,7 +16,7 @@ Make sure you have the necessary env vars located in `env.js` defined before run
 ## Docker
 
 ```shell
-docker build -t sansarip/bbsbot:latest
+docker build . -t sansarip/bbsbot:latest
 # You should also set the necessary env vars with -e
 docker run -p 3000:3000 -d --rm --name bbsbot sansarip/bbsbot:latest
 ```
@@ -24,6 +24,7 @@ docker run -p 3000:3000 -d --rm --name bbsbot sansarip/bbsbot:latest
 ## Node REPL
 
 ```node
+cd src
 node
 .load repl.js
 wyr.startJob()
@@ -32,5 +33,5 @@ wyr.startJob()
 ## Server
 
 ```shell
-node app.js
+node src/app.js
 ```
