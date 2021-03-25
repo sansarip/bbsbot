@@ -1,0 +1,19 @@
+{
+  "name": "boobot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "request": "^2.88.2",
+    "sync-request": "^6.1.0",
+    "tmi.js": "^1.7.5"
+  }
+}
