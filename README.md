@@ -1,6 +1,8 @@
 # bbsbot
 A Twitch bot for thebooboosousa channel
 
+Migrating to https://github.com/sansarip/bbsbot-cljs
+
 ## Prerequisites
 1. NPM
 2. Node
